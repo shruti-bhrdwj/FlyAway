@@ -4,12 +4,19 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>FlyAway</title>
+<link rel="stylesheet" href="style.css"> 
 </head>
 <body>
+<div class="header">
+  <a class="logo">FlyAway</a>
+  <div class="header-right">
+    <a class="active">User</a>
+    <a href="welcome.jsp">Back to Home</a>
+    <a href="AdminPage.jsp">Login as Admin</a>
+  </div>
+</div>
 <br>
-<a href=welcome.jsp style="color:black;text-decoration:none;font-size:35px ;font-weight:bold ;">Flight Booking</a>
-<br><br>
 <h2>User Login</h2>
 <div style="border:2px solid black;width:25% ;border-radius:20px ;padding:20px "align="center">
 <form action="UserLogin" method= post>

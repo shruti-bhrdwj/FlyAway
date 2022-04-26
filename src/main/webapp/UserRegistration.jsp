@@ -5,11 +5,17 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Register to FlyAway</title>
+<link rel="stylesheet" href="style.css"> 
 </head>
 <body>
+<div class="header">
+  <a class="logo">FlyAway</a>
+  <div class="header-right">
+    <a class="active" href="welcome.jsp">Back to Home</a>
+  </div>
+</div>
 <br>
-<a href="/FlyAway-maven-webapp/welcome.jsp" style="color:black;text-decoration:none;font-size:35px ;font-weight:bold ;">Back to Homepage</a>
-<br><br>
+<br>
 <div style="border:3px solid black;width:25% ;border-radius:20px ;padding:20px" align="center">
 <form action="RegisterUser" method= post>
 <label for=email>Email :-</label>

@@ -5,10 +5,15 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Admin Page</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a href=welcome.jsp>FlyAway</a>
-<br><br>
+<div class="header">
+  <a class="logo">FlyAway</a>
+  <div class="header-right">
+    <a class="active" href="welcome.jsp">Back to Home</a>
+  </div>
+</div><br>
 <h1>Admin Login</h1>
 <div>
 <form action="AdminLogin" method= post>

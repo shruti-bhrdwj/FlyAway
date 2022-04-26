@@ -6,8 +6,15 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>FlyAway</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="header">
+  <a class="logo">FlyAway</a>
+  <div class="header-right">
+    <a class="active" href="welcome.jsp">Back to Home</a>
+  </div>
+</div>
 <a href=welcome.jsp style="color:black;text-decoration:none;font-size:35px ;font-weight:bold ;">Flight Booking</a>
 <br><br>
 <% 

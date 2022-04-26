@@ -5,33 +5,38 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Admin Panel</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="header">
+  <a class="logo">FlyAway</a>
+  <div class="header-right">
+    <a class="active" href="welcome.jsp">Back to Home</a>
+  </div>
+</div>
 <br>
-<a href="/FlyAway-maven-webapp/welcome.jsp">Flight Booking</a>
-<br><br>
 <h1>Add New Flight</h1>
 <div>
 
 <form action="InsertFlight" method= post>
 
-<label for= flight_from>From :-</label> 
+<label for= flight_from>From :-</label><br>
 <input type="text" name=flight_from id= from/>
 <br><br>
-<label for=flight_to>To :-</label>
+<label for=flight_to>To :-</label><br>
 <input type="text" name=flight_to id=to/>
 <br><br>
-<label for=name> Name :-</label> 
+<label for=name> Name :-</label><br>
 <input type="text" name=name id=name/>
 <br><br>
-<label for=time_of_flight>Time :-</label>
+<label for=time_of_flight>Time :-</label><br>
 <input type="text" name=time_of_flight id=time/>
 <br><br>
-<label for= ticket_price>Price :-</label>
+<label for= ticket_price>Price :-</label><br>
 <input type=number name=ticket_price id= price/>
 <br><br>
-<label for=date>Departure :-</label>
-<input type=date name=date id=departure/>
+<label for=date>Date :-</label><br>
+<input type="text" name=date id=departure/>
 <br><br>
 <input type=submit value=Add>
 <input type=reset>

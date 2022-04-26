@@ -18,20 +18,22 @@ public class InsertFlight extends HttpServlet {
 	private static final long serialVersionUID= 1L;
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String name=request.getParameter("name");
+
 		String from=request.getParameter("from");
 		String to=request.getParameter("to");
-		String departure=request.getParameter("departure");
+		String name=request.getParameter("name");
 		String time=request.getParameter("time");
 		String price=request.getParameter("price");
+		String departure=request.getParameter("departure");
 		
 		HashMap<String,String>flight=new HashMap<>();
-		flight.put("name",name);
+		
 		flight.put("flight_from",from);
 		flight.put("flight_to",to);
-		flight.put("date",departure);
+		flight.put("name",name);
 		flight.put("time_of_flight",time);
 		flight.put("ticket_price",price);
+		flight.put("date",departure);
 		try {
 			JdbcConnectUtil dao = new JdbcConnectUtil();
 			HttpSession session=request.getSession();
