@@ -28,7 +28,7 @@ if(user!=null){
   }
 %>
 <br><br>
-<div style="border:3px solid black;width:25% ;border-radius:20px ;padding:20px;">
+<div style="border:2px solid black;width:25% ;border-radius:20px ;padding:20px "align="center">
 <form action="FlightsList" method= post>
 <label for= from>From :-</label> <input type=text name=from id=from placeholder="Hint: Jaipur"/>
 <br><br>

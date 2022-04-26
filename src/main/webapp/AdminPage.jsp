@@ -15,7 +15,7 @@
   </div>
 </div><br>
 <h1>Admin Login</h1>
-<div>
+<div style="border:2px solid black;width:25% ;border-radius:20px ;padding:20px "align="center">
 <form action="AdminLogin" method= post>
 <label for=email>Email :-</label>
 <input type="email" name=email id=email/>

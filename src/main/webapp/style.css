@@ -53,7 +53,6 @@
   }
 }
 input[type=text], select {
-  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -63,7 +62,6 @@ input[type=text], select {
 }
 
 input[type=submit] {
-  width: 100%;
   background-color: rgb(0, 128, 128);
   color: white;
   padding: 14px 20px;

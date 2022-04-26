@@ -102,12 +102,18 @@ public class JdbcConnectUtil {
 	public boolean insertFlight(HashMap<String, String>flight) throws SQLException {
 	
 		String query1="INSERT INTO flights (flight_from, flight_to, name, time_of_flight ,ticket_price, date) VALUES"+ " ('"+ 
-		StringUtil.fixSqlFieldValue(flight.get("flight_from")) +"',"+" '"+ 
-		StringUtil.fixSqlFieldValue(flight.get("flight_to")) +"',"+" '"+ 
-		StringUtil.fixSqlFieldValue(flight.get("name")) +"',"+" '"+ 
-		StringUtil.fixSqlFieldValue(flight.get("time_of_flight")) +"',"+" '"+ 
-		StringUtil.fixSqlFieldValue(flight.get("ticket_price")) +"',"+" '"+
-		StringUtil.fixSqlFieldValue(flight.get("date")) +"')";
+				flight.get("flight_from") +"',"+" '"+ 
+				flight.get("flight_to") +"',"+" '"+ 
+				flight.get("name") +"',"+" '"+ 
+				flight.get("time_of_flight") +"',"+" '"+ 
+				flight.get("ticket_price") +"',"+" '"+ 
+				flight.get("date") +"')";
+//		StringUtil.fixSqlFieldValue(flight.get("flight_from")) +"',"+" '"+ 
+//		StringUtil.fixSqlFieldValue(flight.get("flight_to")) +"',"+" '"+ 
+//		StringUtil.fixSqlFieldValue(flight.get("name")) +"',"+" '"+ 
+//		StringUtil.fixSqlFieldValue(flight.get("time_of_flight")) +"',"+" '"+ 
+//		StringUtil.fixSqlFieldValue(flight.get("ticket_price")) +"',"+" '"+
+//		StringUtil.fixSqlFieldValue(flight.get("date")) +"')";
 		System.out.println(flight.get("date"));
 		System.out.println(flight.get("time_of_flight"));
 		try {
