@@ -18,7 +18,7 @@
 </div>
 <br>
 <h2>User Login</h2>
-<div style="border:2px solid black;width:25% ;border-radius:20px ;padding:20px "align="center">
+<div style="border:2px solid black;width:50% ;margin:auto;border-radius:20px ;padding:20px "align="center">
 <form action="UserLogin" method= post>
 <table>
   <tr>
@@ -31,7 +31,7 @@
    </tr>
    <tr>
      <td><input type=submit value=Login></td>
-     <td><input type=reset></td>
+     <td><input type=reset value=Reset></td>
    </tr>
 </table>
 </form>

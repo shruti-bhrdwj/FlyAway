@@ -16,7 +16,7 @@
 </div>
 <br>
 <br>
-<div style="border:3px solid black;width:25% ;border-radius:20px ;padding:20px" align="center">
+<div style="border:3px solid black;width:50% ;margin:auto;border-radius:20px ;padding:20px" align="center">
 <form action="RegisterUser" method= post>
 <label for=email>Email :-</label>
 <input type="email" name=email id=email/><br><br>
@@ -29,7 +29,8 @@
 <label for=adno>Aadhaar No. :-</label>
 <input type="text"name=adno id=adno/><br><br>
 <input type=submit value=Register>
-<input type=reset></form>
+<input type=reset value=Reset>
+</form>
 </div>
 </body>
 </html>

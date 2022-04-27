@@ -15,7 +15,7 @@
   </div>
 </div><br>
 <h1>Admin Login</h1>
-<div style="border:2px solid black;width:25% ;border-radius:20px ;padding:20px "align="center">
+<div style="border:2px solid black;margin:auto;width:50% ;border-radius:20px ;padding:20px "align="center">
 <form action="AdminLogin" method= post>
 <label for=email>Email :-</label>
 <input type="email" name=email id=email/>
@@ -24,7 +24,7 @@
 <input type="password" name= password id= pass/>
 <br><br>
 <input type=submit value=Login>
-<input type=reset></form>
+<input type=reset value=Reset></form>
 </div>
 <a href=ForgotPassword.jsp style="font-size:25;color:red ;">Forgot Password</a>
 <% String message=(String)session.getAttribute("message");

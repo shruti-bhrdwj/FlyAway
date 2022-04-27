@@ -26,7 +26,7 @@
  response.sendRedirect("UserPage.jsp");
  }
  %>
- <p align="center"style="color:green;font-size: 40px ;font-weight:bold ">Flight Booked Successfully</p>
+ <p align="center"style="color:green;margin:auto;font-size: 40px ;font-weight:bold ">Flight Booked Successfully</p>
 
 </body>
 </html>

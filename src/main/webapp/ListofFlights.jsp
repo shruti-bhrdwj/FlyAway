@@ -22,7 +22,7 @@ List<String[]> flights=(List<String[]>)session.getAttribute("flights");
 if(flights!=null){
 %>
 <h1>Flights Available</h1>
- <table border="1" style="border:2px solid black;width:25% ;border-radius:20px ;padding:20px">
+ <table border="1" style="margin:auto;border:2px solid black;width:80% ;border-radius:20px ;padding:30px">
 <tr>
  <th>Name</th>
  <th>Time</th>

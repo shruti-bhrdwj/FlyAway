@@ -16,7 +16,7 @@
 </div>
 <br>
 <h1>Add New Flight</h1>
-<div style="border:2px solid black;width:25% ;border-radius:20px ;padding:20px "align="center">
+<div style="border:2px solid black;margin:auto;width:50% ;border-radius:20px ;padding:20px "align="center">
 
 <form action="InsertFlight" method= post>
 
@@ -30,16 +30,16 @@
 <input type="text" name=name id=name/>
 <br><br>
 <label for=time_of_flight>Time :-</label><br>
-<input type="text" name=time_of_flight id=time/>
+<input type="text" name=time_of_flight id=time placeholder="Format: 03:00 AM"/>
 <br><br>
 <label for= ticket_price>Price :-</label><br>
 <input type="text" name=ticket_price id= price/>
 <br><br>
 <label for=date>Date :-</label><br>
-<input type="text" name=date id=departure/>
+<input type="text" name=date id=departure placeholder="Format: dd-mm-yyyy"/>
 <br><br>
 <input type=submit value=Add>
-<input type=reset>
+<input type=reset value="Reset">
 </form>
  
 </div>
