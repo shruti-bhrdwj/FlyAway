@@ -18,7 +18,7 @@
 </div>
 <br>
 <h2>User Login</h2>
-<div style="border:2px solid black;width:50% ;margin:auto;border-radius:20px ;padding:20px "align="center">
+<div style="border:2px solid black;width:25% ;margin:auto;border-radius:20px ;padding:20px "align="center">
 <form action="UserLogin" method= post>
 <table>
   <tr>
@@ -35,15 +35,16 @@
    </tr>
 </table>
 </form>
-  </div><br><br><i>New User-Create account</i><h4>
-  <a href=UserRegistration.jsp style="font-size:25;color:red ;">CreateAccount</a>
+ <br><i>New User-Create account</i><h4>
+  <a href=UserRegistration.jsp style="font-size:25;color:seagreen ;">CreateAccount</a>
   </h4>
 <% String message=(String)session.getAttribute("message");
    if(message!=null){
 %>
-<p style="color:silver;"><%=message%></p>
+<p style="color:blue;"><%=message%></p>
 <%
   session.setAttribute("message",null);}
 %>
+</div>
 </body>
 </html>

@@ -16,7 +16,7 @@
 </div>
 <br>
 <br>
-<div style="border:3px solid black;width:50% ;margin:auto;border-radius:20px ;padding:20px" align="center">
+<div style="border:3px solid black;width:25% ;margin:auto;border-radius:20px ;padding:20px" align="center">
 <form action="RegisterUser" method= post>
 <label for=email>Email :-</label>
 <input type="email" name=email id=email/><br><br>

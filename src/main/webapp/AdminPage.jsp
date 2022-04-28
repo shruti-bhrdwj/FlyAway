@@ -15,7 +15,7 @@
   </div>
 </div><br>
 <h1>Admin Login</h1>
-<div style="border:2px solid black;margin:auto;width:50% ;border-radius:20px ;padding:20px "align="center">
+<div style="border:2px solid black;margin:auto;width:20% ;border-radius:20px ;padding:20px "align="center">
 <form action="AdminLogin" method= post>
 <label for=email>Email :-</label>
 <input type="email" name=email id=email/>
@@ -30,7 +30,8 @@
 <% String message=(String)session.getAttribute("message");
     if(message!=null){
 %>
-<p style="color:silver;"><%=message%> </p>
+<p style="color:blue;"><%=message%> </p>
 <% session.setAttribute("message",null);} %>
+
 </body>
 </html>

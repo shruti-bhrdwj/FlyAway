@@ -15,7 +15,7 @@
   </div>
 </div>
 <br>
-<div style="border:3px solid black;margin:auto;width:50% ;border-radius:20px ;padding:20px "align="center">
+<div style="border:3px solid black;margin:auto;width:25% ;border-radius:20px ;padding:20px "align="center">
 <form action="ForgotPwd" method= post>
 <label for=email>Email :-</label> <input type="email"name=email id=email/>
 <br><br>
